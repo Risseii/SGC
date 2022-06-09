@@ -1,0 +1,216 @@
+@charset "UTF-8";
+
+body{
+	font-family: 'Livvic', sans-serif;
+	
+}
+
+.wrapper{
+	display:flex;
+	flex-direction:row;
+	align-items:stretch;
+	
+}
+
+/*Sidebar*/
+#sidebar.active {
+    margin-left: -210px;
+}
+
+#sidebar {
+    min-height: 100vh;
+    background: #CEA1E3;
+    color: #fff;
+    transition: all 0.3s;
+    display:flex;
+    flex-direction: column;
+    flex:1;
+}
+
+#sidebar .sidebar-header{
+    padding: 6.5px;  /*antes 15*/
+    background: #6d7fcc;
+    text-decoration:none;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    
+}
+
+#sidebar ul p {
+    color: #fff;
+    margin: 0 auto;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+    text-decoration:none;
+}
+#sidebar ul li a:hover {
+    color: #fff;
+    background: #978AE6;
+    text-decoration:none;
+}
+
+#sidebar ul li.active > a, a[aria-expanded="true"] {
+    color: #fff;
+    background: #6d7fcc;
+}
+
+a{
+	text-decoration:none;
+	color:white;
+}
+
+a:hover{
+	color:#CEA1E3;
+	text-decoration:none;
+}
+
+p{
+	font-size: 18px;
+	font-weight: 300;
+}
+
+/*Principal*/
+.main-panel{
+	background-color: white;
+	display:flex;
+	flex-direction:column;
+	flex:4;
+}
+
+/*top nav*/
+.navbar-header{
+	display:flex;
+	justify-content: space-between;
+}
+
+.navbar{
+	padding:0.37rem;
+}
+
+/*Fondo del top nav*/
+nav{
+	background-color: #6C7FCB;
+}
+
+/*Mensajes
+.card-mensaje{
+	background-color: #ABC9FC;
+}
+*/
+
+
+.me{
+	margin: 6px;
+	font-size: 16px;
+}
+
+
+.buttom-mssg{
+	margin: 6px;
+}
+
+h5{
+	font-family: 'Homemade Apple', cursive;
+}
+
+h4{
+	color:white;
+}
+
+.title{
+	text-align:center;
+}
+
+.card-nc{
+	text-align:center;
+	background-color: #ABC9FC;
+}
+
+.card{
+	margin:20px;
+	padding:15px;
+	background-color:#b0ccffba;
+}
+
+.form-control{
+	width:40%;
+	margin: auto;
+}
+
+.form-group{
+	text-align:center;
+}
+
+tbody,thead{
+	text-align:center;
+}
+
+.space{
+	display:flex;
+	justify-content: space-evenly;
+}
+
+.add{
+	text-align:center;
+	margin: 20px 15px;
+}
+
+.table td{
+	border-top:none;
+}
+
+.purple{
+	background-color: #978AE6;
+	border:none;
+}
+
+.purple:hover{
+	background-color: #818AE6;
+	border:none;
+}
+
+.pac{
+	background-color: #94B9E8;
+	color: white;
+	border:none;
+}
+
+.pac:hover{
+	background-color: #7C9AC2;
+	border:none;
+	color:white;
+}
+
+.edi{
+	background-color: #B08DC2;
+	border:none;
+	color: white;
+}
+
+.edi:hover{
+	background-color: #C8A0DB;
+	color:white;
+	border:none;
+}
+
+tr {
+    font-weight: bold;
+}
+
+h2{
+	text-align:center;
+}
+
+.stats{
+	text-align:center;
+}
+
+#content{
+	width: 420px;
+}
